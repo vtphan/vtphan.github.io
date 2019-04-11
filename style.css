@@ -1,0 +1,47 @@
+#content {
+  float: left;
+  width: 600px;
+  padding-top:20px;
+  font-family: "Times New Roman";
+}
+#navbar {
+  float: left;
+  width: 350px;
+  padding-top:50px;
+}
+#top-container{
+	width: 950px;
+	margin:20px auto;
+}
+#bottom-container{
+	width: 950px;
+	margin:20px auto;
+}
+#research{
+	float: left;
+	font-size: 135%;
+	font-family: "Times New Roman";
+}
+#subheader{
+	font-size: 140%;
+}
+#intro{
+	font-size: 135%;
+}
+#info {
+	font-size: 145%;
+	font-family: Courier;
+}
+a:link,a:hover,a:active,a:visited{
+	color:#0020C2;
+	text-decoration: none;
+}
+img {
+	border-radius: 10px;
+}
+.icon{
+	height:30px;
+}
+h1 {
+	font-family: Georgia;
+}
