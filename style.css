@@ -3,7 +3,12 @@
 	width: 600px;
 	padding-top:20px;
 	font-family: "Times New Roman";
-}
+/*	background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f0/University_of_Memphis_seal.svg");
+	background-repeat: no-repeat, repeat;
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+    background-position: center center;
+*/}
 #navbar {
   float: left;
   width: 350px;
@@ -13,6 +18,7 @@
 	position: relative;
 	width: 950px;
 	margin:20px auto;
+	height: 200px;
 }
 #bottom-container{
 	position: relative;
@@ -30,13 +36,7 @@
 #info {
 	font-size: 110%;
 	font-family: Courier;
-/*	height:200px;
-	background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f0/University_of_Memphis_seal.svg");
-	background-repeat: no-repeat, repeat;
-    background-color: rgba(255,255,255,0.5);
-    background-blend-mode: lighten;
-    background-position: center center;
-*/}
+}
 #footer {
 	bottom:0;
 	width: 950px;
