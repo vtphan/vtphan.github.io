@@ -1,3 +1,13 @@
+html, body {
+	padding:0;
+	margin:0;
+}
+#head-band{
+	height:15px;
+	background-image: linear-gradient(#a4a4a4,#e6e6e6);
+	border-bottom: 2px solid #e4e4e4;
+	margin-bottom: 20px;
+}
 #content {
 	float: left;
 	width: 600px;
@@ -17,7 +27,7 @@
 #top-container{
 	position: relative;
 	width: 950px;
-	margin:20px auto;
+	margin:0px auto;
 	height: 200px;
 }
 #bottom-container{
