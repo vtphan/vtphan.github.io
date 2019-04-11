@@ -1,6 +1,9 @@
 html, body {
 	padding:0;
 	margin:0;
+	font-family: Arial, "Times New Roman";
+	line-height:150%;
+	font-size: 105%;
 }
 #head-band{
 	height:15px;
@@ -8,21 +11,14 @@ html, body {
 	border-bottom: 2px solid #e4e4e4;
 	margin-bottom: 20px;
 }
+#profile_img {
+	float:right;
+	padding:10px 0 20px 20px;
+}
 #content {
 	float: left;
-	width: 600px;
+	width: 950px;
 	padding-top:20px;
-	font-family: "Times New Roman";
-/*	background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f0/University_of_Memphis_seal.svg");
-	background-repeat: no-repeat, repeat;
-    background-color: rgba(255,255,255,0.9);
-    background-blend-mode: lighten;
-    background-position: center center;
-*/}
-#navbar {
-  float: left;
-  width: 350px;
-  padding-top:50px;
 }
 #top-container{
 	position: relative;
@@ -35,17 +31,10 @@ html, body {
 	width: 950px;
 	margin:20px auto;
 }
-#research{
-	float: left;
-	font-size: 135%;
-	font-family: "Times New Roman";
-}
-#intro{
-	font-size: 135%;
-}
 #info {
-	font-size: 110%;
 	font-family: Courier;
+	font-size:110%;
+	font-weight:bold;
 }
 #footer {
 	bottom:0;
