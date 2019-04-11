@@ -5,6 +5,13 @@ html, body {
 	line-height:150%;
 	font-size: 105%;
 }
+a:link,a:hover,a:active,a:visited{
+	color:#0020C2;
+	text-decoration: none;
+}
+h1 {
+	font-family: Georgia;
+}
 #head-band{
 	height:15px;
 	background-image: linear-gradient(#a4a4a4,#e6e6e6);
@@ -13,12 +20,13 @@ html, body {
 }
 #profile_img {
 	float:right;
-	padding:10px 0 20px 20px;
+	margin:5px 0 10px 10px;
+	border-radius: 10px;
 }
 #content {
 	float: left;
 	width: 950px;
-	padding-top:20px;
+	padding:20px 0 40px 0;
 }
 #top-container{
 	position: relative;
@@ -41,17 +49,4 @@ html, body {
 	width: 950px;
     height:200px;
 	margin:20px auto;
-}
-a:link,a:hover,a:active,a:visited{
-	color:#0020C2;
-	text-decoration: none;
-}
-img {
-	border-radius: 10px;
-}
-.icon{
-	height:30px;
-}
-h1 {
-	font-family: Georgia;
 }
