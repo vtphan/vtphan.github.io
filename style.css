@@ -9,7 +9,13 @@ a:link,a:hover,a:active,a:visited{
 	color:#0020C2;
 	text-decoration: none;
 }
-h1 {
+ul {
+	padding-left:1em;
+}
+li {
+	padding:0 0 1em 1em;
+}
+h1, h2 {
 	font-family: Georgia;
 }
 #head-band{
