@@ -6,7 +6,8 @@ html, body {
 	font-size: 105%;
 }
 a:link,a:hover,a:active,a:visited{
-	color:#0020C2;
+	/*color:#0020C2;*/
+	color:#2451a9;
 	text-decoration: none;
 }
 ul {
@@ -18,9 +19,22 @@ li {
 h1, h2 {
 	font-family: Georgia;
 }
+h1 {
+	font-size:180%;
+}
+h2 {
+	font-size:130%;
+}
 #umlogo {
-	float: right;
-	margin: -30px 270px 50px 0;
+	float: left;
+	height: 70px;
+	margin: 0px 10px 0px 0;
+}
+#header {
+	background-image: url('https://www.memphis.edu/communications/brand/Images/academic1.png');
+	background-repeat: no-repeat;
+	height:100px;
+	text-align: right;
 }
 #umbackground {
 	background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/University_of_Memphis_seal.svg/167px-University_of_Memphis_seal.svg.png');
@@ -34,7 +48,7 @@ h1, h2 {
 	height:15px;
 	background-image: linear-gradient(#a4a4a4,#e6e6e6);
 	border-bottom: 2px solid #e4e4e4;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 #profile_img {
 	float:right;
