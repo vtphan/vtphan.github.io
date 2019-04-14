@@ -18,6 +18,10 @@ li {
 h1, h2 {
 	font-family: Georgia;
 }
+#umlogo {
+	float: right;
+	margin: -10px 270px 50px 0;
+}
 #head-band{
 	height:15px;
 	background-image: linear-gradient(#a4a4a4,#e6e6e6);
@@ -35,24 +39,23 @@ h1, h2 {
 	padding:20px 0 40px 0;
 }
 #top-container{
-	position: relative;
+	/*position: relative;*/
 	width: 950px;
 	margin:0px auto;
-	height: 200px;
+	/*height: 200px;*/
 }
 #bottom-container{
-	position: relative;
+	/*position: relative;*/
 	width: 950px;
-	margin:20px auto;
+	margin:0 auto;
 }
 #info {
 	font-family: Courier;
 	font-size:110%;
 	font-weight:bold;
+	margin: 1.5em 0 2em 0;
+	padding: 2em 0 2em 0;
 }
-#footer {
-	bottom:0;
-	width: 950px;
-    height:200px;
-	margin:20px auto;
+#info a:hover {
+	color: black;
 }
