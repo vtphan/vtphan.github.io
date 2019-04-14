@@ -22,6 +22,14 @@ h1, h2 {
 	float: right;
 	margin: -30px 270px 50px 0;
 }
+#umbackground {
+	background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/University_of_Memphis_seal.svg/167px-University_of_Memphis_seal.svg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 55% 25%; 
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+}
 #head-band{
 	height:15px;
 	background-image: linear-gradient(#a4a4a4,#e6e6e6);
