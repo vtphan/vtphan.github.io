@@ -3093,9 +3093,13 @@ input, select, textarea {
 				}
 
 			.wrapper.style3 table th {
+				text-align: center;
+				font-size: 80%;
 				color: #ffffff;
 			}
-
+			.wrapper.style3 table td {
+				font-size: 70%;
+			}
 			.wrapper.style3 table thead {
 				border-color: rgba(0, 0, 0, 0.125);
 			}
@@ -3566,7 +3570,7 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+	#banner, body.is-mobile #banner {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3886,6 +3890,7 @@ input, select, textarea {
 		background-attachment: fixed;
 /*		background-attachment: scroll;*/
 	}
+
 
 /* Footer */
 
