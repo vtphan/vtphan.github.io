@@ -3644,7 +3644,7 @@ input, select, textarea {
 				color: inherit;
 			}
 
-		#banner .more {
+		#banner .more, body.is-mobile #banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3675,7 +3675,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .more:after {
+			#banner .more:after, body.is-mobile #banner .more:after {
 				background-image: url("images/arrow.svg");
 				background-position: center;
 				background-repeat: no-repeat;
